@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Environment secrets — never commit .env
+.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model weights — large binary files; download separately (see models/README.md)
+models/*.pt
+models/*.onnx
+models/*.trt
+models/*.weights
+
+# Outputs (auto-generated — do not commit)
+outputs/*
+!outputs/.gitkeep
+
+# EasyOCR model cache
+~/.EasyOCR/
+.EasyOCR/
+
+# Ultralytics cache
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.log
+*.tmp
+tmp/

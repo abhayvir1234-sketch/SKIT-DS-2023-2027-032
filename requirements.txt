@@ -1,0 +1,39 @@
+# Vehicle Number Plate Recognition System — Python Dependencies
+# Project: ALPR — College Engineering Project
+# Team: Abhayvir Singh, Himank Devnani, Karam Singh Bana
+# Implementation Date: 22 October 2026
+#
+# Install in a virtual environment:
+#   pip install -r requirements.txt
+#
+# Note: ultralytics installs torch as a dependency. On CPU-only machines
+#       the CPU-only torch build is automatically selected by pip.
+#       For GPU support: install torch with CUDA first (see README.md).
+
+# --- Core computer vision & numerics ---
+opencv-python-headless>=4.8.0
+numpy>=1.24.0,<2.0.0
+Pillow>=10.0.0
+
+# --- Deep learning / detection ---
+ultralytics>=8.0.0
+
+# --- OCR ---
+easyocr>=1.7.0
+
+# --- Web interface ---
+streamlit>=1.28.0
+
+# --- Data ---
+pandas>=2.0.0
+
+# --- Configuration ---
+python-dotenv>=1.0.0
+
+# --- Testing ---
+pytest>=7.4.0
+pytest-mock>=3.11.0
+
+# --- Utilities (pulled transitively but pinning for stability) ---
+requests>=2.31.0
+tqdm>=4.65.0
