@@ -103,9 +103,9 @@ The system is organized into independent, testable modules:
 | Plate Extractor | `src/plate_extractor.py` | Abhayvir Singh | Safe crop extraction |
 | OCR Engine | `src/ocr_engine.py` | Himank Devnani | EasyOCR integration |
 | Validation | `src/validation.py` | Himank Devnani | Format heuristics |
-| Annotation | `src/annotation.py` | Karam Singh Bana | Result visualization |
-| Report | `src/report.py` | Karam Singh Bana | JSON/CSV export |
-| App UI | `app.py` | Karam Singh Bana | Streamlit interface |
+| Annotation | `src/annotation.py` | Karan Singh Bana | Result visualization |
+| Report | `src/report.py` | Karan Singh Bana | JSON/CSV export |
+| App UI | `app.py` | Karan Singh Bana | Streamlit interface |
 
 ---
 
